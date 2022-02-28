@@ -15,8 +15,7 @@
     "@typescript-eslint"
   ],
   "rules": {
-    "indent": [
-      "off"
-    ]
+    "indent": "off",
+    "object-curly-spacing": "off"
   }
 }

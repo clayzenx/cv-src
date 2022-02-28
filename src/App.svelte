@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { RouterView, routes, link } from "./router";
 </script>
 
 <main>
@@ -8,6 +9,8 @@
     />
   </svg>
   Привет мир
+  <a href="/exp" use:link>The Little Prince</a>
+  <RouterView {routes} />
 </main>
 
 <style>
