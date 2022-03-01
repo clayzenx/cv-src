@@ -47,6 +47,7 @@
   .nav-item {
     display: flex;
     align-items: center;
+    gap: 5px;
     padding: 5px 10px;
     border-bottom: 1px solid var(--disable);
     font-weight: 500;

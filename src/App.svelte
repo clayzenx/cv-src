@@ -10,6 +10,6 @@
   </div>
 </main>
 
-<style lang="postCss">
+<style lang="postcss">
   @import "./assets/styles/global.css";
 </style>
