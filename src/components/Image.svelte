@@ -10,6 +10,6 @@
     width: 112px;
     height: 112px;
     border-radius: 3px;
-    box-shadow: 1px 1px 5px var(--black800);
+    box-shadow: 1px 1px 3px var(--black800);
   }
 </style>

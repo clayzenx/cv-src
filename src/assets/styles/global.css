@@ -1,8 +1,9 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 a { text-decoration: none; color: var(--disable); }
 a:hover { color: var(--active) }
-svg.svg-icon { width: 32px; height: 32px; }
+svg.svg-icon { width: 32px; height: 32px; cursor: pointer }
 svg.svg-icon > * { fill: var(--disable); }
+svg.svg-icon:hover > * { fill: var(--active); }
 
 :root {
   --active: #555;
@@ -22,7 +23,7 @@ body {
   color: var(--active);
 }
 #app { height: 100%; }
-#main-container { height: 500px;}
+#main-container { height: 500px; width: 540px;}
 main { 
   height: 100%;
   display: flex; 
@@ -39,7 +40,12 @@ main {
 }
 
 .d-flex { display: flex; }
+.fd-column { flex-direction: column;}
+.ai-center { align-items: center; }
 .g-20 { gap: 20px; }
+.g-10 { gap: 10px; }
+.g-5 { gap: 5px; }
+.g-3 { gap: 3px; }
 
 
 h2.title {
@@ -47,4 +53,10 @@ h2.title {
   line-height: 28px;
   color: var(--black800);
   font-weight: 400;
+}
+.subtitle { font-size: 16px; }
+.small-text { 
+  font-size: 12px; 
+  font-weight: 300;
+  color: var(--disable)
 }
