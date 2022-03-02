@@ -93,8 +93,9 @@
   </p>
 </div>
 
-<style>
+<style scoped>
   .about-text {
+    margin-top: 10px;
     font-size: 15px;
     font-weight: 300;
     text-align: justify;
