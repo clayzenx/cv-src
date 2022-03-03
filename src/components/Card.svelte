@@ -12,8 +12,9 @@
 <style>
   .company {
     width: var(--container-width);
-    height: 112px;
+    height: 140px;
     padding: 5px 20px;
+    border-radius: 10px;
     border: 1px solid var(--disable);
   }
 </style>

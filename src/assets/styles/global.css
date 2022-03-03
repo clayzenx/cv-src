@@ -3,13 +3,15 @@ a { text-decoration: none; color: var(--disable); }
 a:hover { color: var(--active) }
 svg.svg-icon { width: 32px; height: 32px; cursor: pointer }
 svg.svg-icon > * { fill: var(--disable); }
-svg.svg-icon:hover > * { fill: var(--active); }
+svg.svg-icon:hover > * { fill: var(--primary); }
 
 :root {
-  --active: #555;
+  --light: #ccc;
+  --active: #586069;
   --hover: #888;
-  --disable: #babbbb;
+  --disable: #e1e4e8;
   --primary: #ffa500;
+  --link: #0366d6;
   --black800: hsl(210,8%,15%);
   --container-width: 540px;
   --container-height: 500px;

@@ -3,7 +3,7 @@
 </script>
 
 <div class="tab-container">
-  <h2 class="title">Работа в компаниях</h2>
+  <h3>Работа в компаниях</h3>
 
   <div id="abp">
     <Card url="http://abproc.ru/">
@@ -73,6 +73,7 @@
       rgba(2, 0, 36, 0) 15%,
       rgba(245, 245, 245, 1) 75%
     );
+    border-radius: 10px;
   }
   #eltex {
     background: linear-gradient(
@@ -80,6 +81,7 @@
       rgba(35, 150, 243, 1) 10%,
       rgba(255, 255, 255, 0) 50%
     );
+    border-radius: 10px;
   }
   #eltex .logo {
     width: 175px;
@@ -91,17 +93,22 @@
       rgba(255, 255, 255, 1) 40%,
       rgba(184, 75, 0, 0.1) 75%
     );
+    border-radius: 10px;
   }
   .logo {
     height: 60px;
   }
 
   .list {
-    list-style: square;
     width: 50%;
   }
 
   .list > li {
+    color: var(--black800);
+  }
+
+  .small-text {
+    line-height: 18px;
     color: var(--active);
   }
 </style>
