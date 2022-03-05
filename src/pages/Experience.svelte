@@ -4,7 +4,7 @@
 </script>
 
 <div class="tab-container">
-  <h3>Organizations</h3>
+  <h3>Работка в компаниях</h3>
   <Card>
     <div class="d-flex g-20">
       <div class="image" id="abp" />

@@ -45,7 +45,7 @@ main {
   gap: 10px;
 }
 
-.d-flex { display: flex; }
+.d-flex { display: flex; flex-wrap: wrap; }
 .fd-column { flex-direction: column;}
 .ai-center { align-items: center; }
 .jc-between { justify-content: space-between; }
