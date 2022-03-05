@@ -94,16 +94,16 @@
   .about-text {
     margin-top: 5px;
     text-align: justify;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 300;
     line-height: 27px;
-    color: rgb(88, 96, 105);
+    color: var(--grey);
   }
 
   .small-text {
     font-size: 14px;
     font-weight: 300;
-    color: rgb(88, 96, 105);
+    color: var(--grey);
   }
 
   .svg-icon > * {
