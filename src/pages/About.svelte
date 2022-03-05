@@ -8,7 +8,7 @@
 
     <div class="d-flex fd-column g-10">
       <div>
-        <h2 class="title">Владислав</h2>
+        <h2>Владислав</h2>
         <span class="subtitle">Веб-разработчик</span>
       </div>
 
@@ -92,16 +92,18 @@
 
 <style scoped>
   .about-text {
-    margin-top: 10px;
+    margin-top: 5px;
+    text-align: justify;
     font-size: 18px;
     font-weight: 300;
-    line-height: 24px;
-    text-align: justify;
+    line-height: 27px;
+    color: rgb(88, 96, 105);
   }
 
   .small-text {
-    color: var(--light);
     font-size: 14px;
+    font-weight: 300;
+    color: rgb(88, 96, 105);
   }
 
   .svg-icon > * {
