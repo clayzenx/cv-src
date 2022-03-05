@@ -1,13 +1,13 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
-a { text-decoration: none; color: var(--disable); }
+a { text-decoration: none; color: var(--light); }
 a:hover { color: var(--active) }
-svg.svg-icon { width: 32px; height: 32px; cursor: pointer }
-svg.svg-icon > * { fill: var(--disable); }
+svg.svg-icon { width: 20px; height: 20px; cursor: pointer }
+svg.svg-icon > * { fill: var(--light); }
 svg.svg-icon:hover > * { fill: var(--primary); }
 
 :root {
   --light: #ccc;
-  --active: #586069;
+  --active: #24292f;
   --hover: #888;
   --disable: #e1e4e8;
   --primary: #ffa500;
