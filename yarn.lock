@@ -75,6 +75,13 @@
   resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-0.7.0.tgz"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
+"@sveltejs/adapter-static@^1.0.0-next.29":
+  version "1.0.0-next.29"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.29.tgz#bdc5df5c174a2b2405622eca1817cf6850869dc6"
+  integrity sha512-0hjGnfT3BRyoHnzJ2w0/xL+xICRpKneDTm45ZzggiRrc0r71WJfF6toGeg8N4QUQnj8EJ3Itm453gsS1kt7VUQ==
+  dependencies:
+    tiny-glob "^0.2.9"
+
 "@sveltejs/vite-plugin-svelte@^1.0.0-next.30":
   version "1.0.0-next.38"
   resolved "https://registry.npmjs.org/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.38.tgz"
@@ -1505,6 +1512,11 @@ globals@^13.6.0, globals@^13.9.0:
   dependencies:
     type-fest "^0.20.2"
 
+globalyzer@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/globalyzer/-/globalyzer-0.1.0.tgz#cb76da79555669a1519d5a8edf093afaa0bf1465"
+  integrity sha512-40oNTM9UfG6aBmuKxk/giHn5nQ8RVz/SS4Ir6zgzOv9/qC3kKZ9v4etGTcJbEl/NyVQH7FGU7d+X1egr57Md2Q==
+
 globby@^10.0.0:
   version "10.0.2"
   resolved "https://registry.npmjs.org/globby/-/globby-10.0.2.tgz"
@@ -1530,6 +1542,11 @@ globby@^11.0.4:
     ignore "^5.2.0"
     merge2 "^1.4.1"
     slash "^3.0.0"
+
+globrex@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/globrex/-/globrex-0.1.2.tgz#dd5d9ec826232730cd6793a5e33a9302985e6098"
+  integrity sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==
 
 got@^7.0.0:
   version "7.1.0"
@@ -3062,6 +3079,14 @@ timed-out@^4.0.0, timed-out@^4.0.1:
   resolved "https://registry.npmjs.org/timed-out/-/timed-out-4.0.1.tgz"
   integrity sha1-8y6srFoXW+ol1/q1Zas+2HQe9W8=
 
+tiny-glob@^0.2.9:
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/tiny-glob/-/tiny-glob-0.2.9.tgz#2212d441ac17928033b110f8b3640683129d31e2"
+  integrity sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==
+  dependencies:
+    globalyzer "0.1.0"
+    globrex "^0.1.2"
+
 to-buffer@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/to-buffer/-/to-buffer-1.1.1.tgz"
@@ -3235,10 +3260,10 @@ vite@^2.8.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-wc-simple-components-lib@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/wc-simple-components-lib/-/wc-simple-components-lib-0.0.6.tgz#4b05358ab28321b2cdf939ce7c03f92274e959c7"
-  integrity sha512-gJpCfPwlU/EVqVmDZIM8wmMOtDqHQN/xOo+fe6100jm1uuUvRvBfHTVEfrWYnNg10+RVdjEKmOOIBa/qwzrXyA==
+wc-simple-components-lib@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/wc-simple-components-lib/-/wc-simple-components-lib-0.0.9.tgz#d7b3a8cb04d2150052877489904f6881fd336da6"
+  integrity sha512-joeyhYAFm85r6o8oSET+CniumKvP2TPrTAZH8SKYYN1RNR84+4FeQKYMIERuN7Cl7AxryWF1x74N+uemuv8q8g==
   dependencies:
     lit "^2.0.2"
 
