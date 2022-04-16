@@ -8,8 +8,8 @@
 
     <div class="d-flex fd-column g-10">
       <div>
-        <h2>Владислав</h2>
-        <span class="subtitle">Веб-разработчик</span>
+        <h2>Vladislav</h2>
+        <span class="subtitle">Web-devleloper</span>
       </div>
 
       <div class="d-flex g-10">
@@ -78,15 +78,15 @@
             d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
           />
         </svg>
-        <span class="small-text">Новосибирск, Россия</span>
+        <span class="small-text">Kazakhsata, Oskemen</span>
       </div>
     </div>
   </div>
   <p class="about-text">
-    Люблю веб-разработку за возможность создавать сервисы упрощающую нашу жизнь.
-    Уделяю должное внимание дизайну, простоте и отзывчивости пользовательских
-    интерфейсов и стремлюсь разрабатывать не только полезные но и красивые
-    реализации ваших и своих идей
+    I like web-development for opportunity to create services simplifying our
+    life. I pay attention to design, simplicity, user-friendly interface and I
+    aim to develop not only useful but also sightly visualisation of your and my
+    ideas.
   </p>
 </div>
 

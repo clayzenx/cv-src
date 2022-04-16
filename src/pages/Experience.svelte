@@ -4,7 +4,6 @@
 </script>
 
 <div class="tab-container">
-  <h3>Работка в компаниях</h3>
   <Card>
     <div class="d-flex g-20">
       <div class="image" id="abp" />
@@ -13,7 +12,7 @@
           <a class="name" href="http://abproc.ru/">АБП</a>
           <a class="site" href="http://abproc.ru/">abproc</a>
         </span>
-        <span class="desc">Автоматизация бизнесс процессов</span>
+        <span class="desc">Business process automation</span>
         <span class="d-flex g-5">
           <Label>lotusscript</Label>
           <Label>@formula</Label>
@@ -21,9 +20,9 @@
           <Label>TestTrail</Label>
         </span>
         <ul class="list">
-          <li>Разработка новых фич</li>
-          <li>Ручное тестирование системы</li>
-          <li>Описание тестовых сценариев в TestRail</li>
+          <li>Development of new features</li>
+          <li>Manual testing</li>
+          <li>Specification of test cases in TestRail</li>
         </ul>
       </div>
     </div>
@@ -36,8 +35,7 @@
           <a class="name" href="https://eltex-co.com/">Eltex</a>
           <a class="site" href="https://eltex-co.com/">eltex-co</a>
         </span>
-        <span class="desc">Производство телекоммуникационного оборудования</span
-        >
+        <span class="desc">Production of telecommunication equipment</span>
         <span class="d-flex g-5">
           <Label>angular</Label>
           <Label>knockout</Label>
@@ -45,8 +43,8 @@
           <Label>lua</Label>
         </span>
         <ul class="list">
-          <li>Разработка UI для оборудования</li>
-          <li>Правки в системной части</li>
+          <li>Development of UI for telecommunications equipment</li>
+          <li>Edits in system side</li>
         </ul>
       </div>
     </div>
@@ -59,7 +57,7 @@
           <a class="name" href="https://just-work.org/">JustWork</a>
           <a class="site" href="https://just-work.org/">just-work</a>
         </span>
-        <span class="desc">Разработка веб серисов и приложений</span>
+        <span class="desc">Development web servicess and aplications</span>
         <span class="d-flex g-5">
           <Label>typescript</Label>
           <Label>vue</Label>
@@ -67,10 +65,10 @@
           <Label>graphql</Label>
         </span>
         <ul class="list">
-          <li>Разработка веб сервисов</li>
-          <li>Формирование ТЗ и отценка задач</li>
-          <li>Ревью кода</li>
-          <li>Тестирование функционала</li>
+          <li>Developments web servicess</li>
+          <li>Scoping and task evaluation</li>
+          <li>Code review</li>
+          <li>Testing</li>
         </ul>
       </div>
     </div>
